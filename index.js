@@ -12,7 +12,7 @@ const questions = [
   {
     type: "input",
     name: "userEmail",
-    message: "What is your user email?",
+    message: "What is your email?",
   },
   {
     type: "input",
@@ -22,12 +22,13 @@ const questions = [
   {
     type: "input",
     name: "projectDescription",
-    message: "What is the description of your project?",
+    message: "Please enter a short description of your project",
   },
   {
     type: "input",
     name: "licenseType",
-    message: "What type of license do you need?",
+    message:
+      "What type of license do you need? Choices include ISC, MIT, Apache License 2.0, GNU GPLv2, GNU GPLv3",
   },
   {
     type: "input",
@@ -41,18 +42,30 @@ const questions = [
   },
   {
     type: "input",
+    name: "usage",
+    message:
+      "Provide instructions and examples for use. Include screenshots as needed.",
+  },
+  {
+    type: "input",
     name: "useRepo",
     message: "What user needs to know about using the repo?",
   },
   {
     type: "input",
-    name: "contrRepo",
-    message: "What user needs to know about contributing to the repo?",
+    name: "contributors",
+    message: "List contributors and link their GitHub profiles",
   },
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  var fileName = "README.md";
+  fs.writeFile(fileName, data, "utf-8", function (err) {
+    if (err) throw err;
+    console.log("Success!");
+  });
+}
 
 // function to initialize program
 function init() {
@@ -60,6 +73,8 @@ function init() {
     console.log(answers);
     console.log(answers.projectDescription);
     var readmeReturn = generateMarkdown(answers);
+    var fileName = "README.md";
+    return writeToFile(fileName, readmeReturn);
   });
 }
 
