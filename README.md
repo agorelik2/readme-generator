@@ -1,33 +1,38 @@
 
+
+  
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
   
 # Username: 
-sgsg
-
-# Email:
-sgsg
+agorelik2
 
 # Title:
-sgsg
+README-Generator
 
 # Description:
-ssgsgsgs
+This application allows to generate README.md file based on user's responses
 
-# License: 
-sgsg
+#Table of Contents
+N/A
 
 # Installation: 
-sgsgs
-
-# Testing: 
-sgsgs
+ipm install
 
 # Usage: 
-sgsgsgs
+In terminal, CD into the project directory. Type node index.js to run the program. User will be presented with the series of questions, and a README.md file will be generated based on user's answers.
+
+# License: 
+ISC
+
+# Testing: 
+ipm run test
 
 # Repo: 
-sgsgs
+
 
 # Contributors: 
-sgs
+Alina Gorelik
+
+# Questions: 
+It was my first auto-generated README file.
 

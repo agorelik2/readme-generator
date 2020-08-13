@@ -3,13 +3,12 @@ let index = require("../index.js");
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+  
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/${data.licenseType})
   
 # Username: 
 ${data.userName}
-
-# Email:
-${data.userEmail}
 
 # Title:
 ${data.projectName}
@@ -17,23 +16,29 @@ ${data.projectName}
 # Description:
 ${data.projectDescription}
 
-# License: 
-${data.licenseType}
+#Table of Contents
+${data.tableofContents}
 
 # Installation: 
 ${data.installComm}
 
-# Testing: 
-${data.runTestComm}
-
 # Usage: 
 ${data.usage}
+
+# License: 
+${data.licenseType}
+
+# Testing: 
+${data.runTestComm}
 
 # Repo: 
 ${data.useRepo}
 
 # Contributors: 
 ${data.contributors}
+
+# Questions: 
+${data.questions}
 
 `;
 }

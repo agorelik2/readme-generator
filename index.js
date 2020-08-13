@@ -11,11 +11,6 @@ const questions = [
   },
   {
     type: "input",
-    name: "userEmail",
-    message: "What is your email?",
-  },
-  {
-    type: "input",
     name: "projectName",
     message: "What is the name of your project?",
   },
@@ -23,6 +18,11 @@ const questions = [
     type: "input",
     name: "projectDescription",
     message: "Please enter a short description of your project",
+  },
+  {
+    type: "input",
+    name: "tableofContents",
+    message: "Please enter the table of contents",
   },
   {
     type: "input",
@@ -56,6 +56,11 @@ const questions = [
     name: "contributors",
     message: "List contributors and link their GitHub profiles",
   },
+  {
+    type: "input",
+    name: "questions",
+    message: "Please enter any questions or comments",
+  },
 ];
 
 // function to write README file
@@ -71,7 +76,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (answers) {
     console.log(answers);
-    console.log(answers.projectDescription);
+    //console.log(answers.projectDescription);
     var readmeReturn = generateMarkdown(answers);
     var fileName = "README.md";
     return writeToFile(fileName, readmeReturn);
