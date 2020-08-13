@@ -16,7 +16,7 @@ ${data.projectName}
 # Description:
 ${data.projectDescription}
 
-#Table of Contents
+# Table of Contents
 ${data.tableofContents}
 
 # Installation: 

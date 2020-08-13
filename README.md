@@ -7,16 +7,16 @@
 agorelik2
 
 # Title:
-README-Generator
+README Generator
 
 # Description:
 This application allows to generate README.md file based on user's responses
 
-#Table of Contents
+# Table of Contents
 N/A
 
 # Installation: 
-ipm install
+npm install
 
 # Usage: 
 In terminal, CD into the project directory. Type node index.js to run the program. User will be presented with the series of questions, and a README.md file will be generated based on user's answers.
@@ -25,10 +25,10 @@ In terminal, CD into the project directory. Type node index.js to run the progra
 ISC
 
 # Testing: 
-ipm run test
+npm run test
 
 # Repo: 
-
+https://github.com/agorelik2/readme-generator
 
 # Contributors: 
 Alina Gorelik
