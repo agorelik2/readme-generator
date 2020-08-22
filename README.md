@@ -20,7 +20,7 @@ N/A
 
 # Installation:
 
-npm init
+User will need to install Node.js on their computer. Once that is installed, cd into your project folder and type 'npm install' into the working directory to install dependencies. User will also need to install npm file system and npm inquirer.
 
 # Usage:
 
