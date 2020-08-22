@@ -1,6 +1,6 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-[Video Link:](https://drive.google.com/file/d/10WWp1h-tNzYqH-dh3oaEqPmg7OyyrOzb/preview)
+[Video of README.MD File Generator](https://drive.google.com/file/d/10WWp1h-tNzYqH-dh3oaEqPmg7OyyrOzb/preview)
 
 # Username:
 
