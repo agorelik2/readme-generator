@@ -1,14 +1,12 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-[Video of README Generator](https://drive.google.com/file/d/10WWp1h-tNzYqH-dh3oaEqPmg7OyyrOzb/preview)
-
 # Username:
 
 agorelik2
 
 # Title:
 
-README Generator
+README FILE GENERATOR
 
 # Description:
 
@@ -16,15 +14,23 @@ This application allows to generate README.md file based on user's responses
 
 # Table of Contents
 
-N/A
+Title, Description, Installation, Usage, License, Testing, Repo, Contributors, Questions.
 
 # Installation:
 
-npm init
+npm install. User will need to install Node.js on their computer. Once that is installed, cd into your project folder and type 'npm install' into the working directory to install dependencies.
 
 # Usage:
 
 In terminal, CD into the project directory. Type node index.js to run the program. User will be presented with the series of questions, and a README.md file will be generated based on user's answers.
+
+## Pictures of Readme File Generator
+
+![readme-generator img 1](images/image1.png)
+
+![readme-generator img 2](images/image2.png)
+
+![readme-generator img 3](images/image3.png)
 
 # License:
 
@@ -40,8 +46,8 @@ https://github.com/agorelik2/readme-generator
 
 # Contributors:
 
-Alina Gorelik
+Alina Gorelik. GitHub Profile:https://github.com/agorelik2
 
 # Questions:
 
-This is my first README file generator
+The site is published on https://agorelik2.github.io/readme-generator/
