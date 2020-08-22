@@ -18,7 +18,11 @@ Title, Description, Installation, Usage, License, Testing, Repo, Contributors, Q
 
 # Installation:
 
+<<<<<<< HEAD
 npm install. User will need to install Node.js on their computer. Once that is installed, cd into your project folder and type 'npm install' into the working directory to install dependencies.
+=======
+User will need to install Node.js on their computer. Once that is installed, cd into your project folder and type 'npm install' into the working directory to install dependencies. User will also need to install npm file system and npm inquirer.
+>>>>>>> a2e0a27e98324f31ed7c2ae9b81657bb167d1b77
 
 # Usage:
 
